@@ -223,8 +223,6 @@ header {
 }
 .ahref{
     width: 100%;
-    /* height: 100%; */
-    /* border: 1px solid red; */
 }
 .ahref-2{
     width: 100%;
@@ -239,7 +237,7 @@ header {
     border: 5px solid #176BB9;
     padding: 45px 0px;
     margin-top: 10px;
-    height: 25vh;
+    height: 30vh;
     transition: 0.5s ease-in-out;
 }
 
