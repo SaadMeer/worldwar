@@ -112,10 +112,11 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
 }
 
 .logo-section {
@@ -193,7 +194,6 @@ header {
     display: flex;
     width: 100%;
     height: 100vh;
-    /* background-image: url('./assets/imgs/Final B 3.png'); */
     overflow: hidden;
 }
 
@@ -202,23 +202,23 @@ header {
     height: 100%;
 }
 
-
 .twoBoxSection {
     position: absolute;
     left: 0;
-    margin-top: 100px;
+    margin-top: 15vh;
     padding: 0px 35px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 83.8vh;
+    height: 85vh;
 }
 
 .twoBoxSection-centered {
     display: flex;
     width: 100%;
+    height: 50vh;
     gap: 60px;
 }
 .ahref{
@@ -239,6 +239,7 @@ header {
     border: 5px solid #176BB9;
     padding: 45px 0px;
     margin-top: 10px;
+    height: 25vh;
     transition: 0.5s ease-in-out;
 }
 
@@ -262,6 +263,7 @@ header {
 
 .twoBox-1 {
     width: 100%;
+    height: 100%;
     border: 5px solid rgba(255, 0, 0, 0.80);
     background: #000;
     display: flex;
@@ -274,6 +276,8 @@ header {
 
 .twoBox-2 {
     width: 100%;
+    height: 100%;
+
     border: 5px solid rgba(254, 241, 0, 0.90);
     background: #000;
     display: flex;
@@ -459,7 +463,6 @@ header {
 
 @media only screen and (max-width: 750px) {
     .HeroSection {
-        /* overflow: visible; */
         height: 120vh;
     }
 }
@@ -468,6 +471,7 @@ header {
     header{
         display: flex;
         flex-wrap: wrap;
+        margin-top: 20px;
     }
     .logo-section{
         padding-left: 0px;
@@ -507,6 +511,12 @@ header {
         width: 100%;
         height: 160vh;
         overflow: none;
+    }
+    .twoBoxSection-centered{
+        height: auto;
+    }
+    .tower-section{
+        height: auto;
     }
 }
 
