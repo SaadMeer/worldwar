@@ -401,6 +401,23 @@ header {
 }
 
 
+.bg-captured {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    display: none; 
+}
+
+.bg-captured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .twoBox-2:hover {
     filter: grayscale(0%);
     background-color: transparent;
