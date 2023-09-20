@@ -116,8 +116,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px 0px 20px;
-    /* border: 1px solid red; */
-
 }
 
 .logo-section {
@@ -195,14 +193,9 @@ header {
     display: flex;
     width: 100%;
     height: 100vh;
+    /* background-image: url('./assets/imgs/Final B 3.png'); */
     overflow: hidden;
 }
-
-/* 
-  .HeroSection img {
-      width: 100%;
-      height: 100%;
-  } */
 
 .HeroSection .imgHero {
     width: 100%;
@@ -222,6 +215,11 @@ header {
     display: flex;
     width: 100%;
     gap: 60px;
+}
+.ahref{
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid red; */
 }
 
 .tower-section {
@@ -255,7 +253,7 @@ header {
 
 
 .twoBox-1 {
-    width: 50%;
+    width: 100%;
     border: 5px solid rgba(255, 0, 0, 0.80);
     background: #000;
     display: flex;
@@ -267,7 +265,7 @@ header {
 }
 
 .twoBox-2 {
-    width: 50%;
+    width: 100%;
     border: 5px solid rgba(254, 241, 0, 0.90);
     background: #000;
     display: flex;
@@ -343,6 +341,7 @@ header {
 }
 
 .Deploy-btn {
+    border: none;
     background: #E11313;
     color: #FFF;
     text-align: center;
@@ -350,6 +349,7 @@ header {
     font-size: 20px;
     font-weight: 400;
     padding: 10px;
+    width: 100%;
     letter-spacing: 2px;
     display: none;
 }
@@ -372,7 +372,7 @@ header {
 
 .twoBox-1:hover .twoBox-inner {
     background-color: #000;
-    padding: 30px 20px;
+    /* padding: 30px 20px; */
 }
 
 
@@ -380,18 +380,25 @@ header {
     filter: grayscale(100%);
 }
 
-.grayscale.twoBox-1,.twoBox-inner {
+.grayscale.twoBox-1,
+.twoBox-inner {
     background-color: transparent;
     border: none;
     transition: 0.5s ease-in-out;
 }
 
-.grayscale.twoBox-2,.twoBox-inner {
+.grayscale.twoBox-2,
+.twoBox-inner {
     background-color: transparent;
     border: none;
     transition: 0.5s ease-in-out;
 }
 
+.grayscale.tower-section {
+    background-color: transparent;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
 
 
 .twoBox-2:hover {
@@ -412,3 +419,70 @@ header {
     transform: scale(1.02);
 }
 
+/* Responsive Start */
+@media only screen and (max-width: 900px) {
+    .twoBoxSection-centered {
+        gap: 10px;
+    }
+
+    .twoBoxSection {
+        margin-top: 100px;
+        padding: 0px 15px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .HeroSection {
+        /* overflow: visible; */
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo-section{
+        padding-left: 0px;
+        /* border: 1px solid red; */
+    }
+
+    .center-txt{
+        margin-top: 20px;
+        justify-content: flex-end;
+        order: 3;
+        width: 100%;
+    }
+    .contentTxtSvg{
+        width: 100%;
+    }
+    .logoHead{
+        width: 100%;
+        height: 100%;
+    }
+
+    .twoBoxSection{
+        margin-top: 160px;
+    }
+
+    .twoBoxSection-centered {
+        display: block;
+        width: 100%;
+    }
+
+    .twoBox-1,
+    .twoBox-2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .HeroSection {
+        width: 100%;
+        height: 170vh;
+        overflow: none;
+    }
+}
+
+/* Responsive End */
