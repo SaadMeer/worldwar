@@ -5,48 +5,41 @@ const tower = document.querySelector('.tower-section');
 
 
 
-const capturedBg = document.createElement('div'); // Create a container for the captured image
-const capturedImage = new Image(); // Create an image element to display the captured image
+// const capturedBg = document.createElement('div'); // Create a container for the captured image
+// const capturedImage = new Image(); // Create an image element to display the captured image
 
 // Set up the container and image styles
-capturedBg.classList.add('bg-captured');
-capturedImage.src = imgHero.src;
+// capturedBg.classList.add('bg-captured');
+// capturedImage.src = imgHero.src;
 
 // Append the captured image container to the DOM
-twoBox1.appendChild(capturedBg);
-capturedBg.appendChild(capturedImage);
+// twoBox1.appendChild(capturedBg);
+// capturedBg.appendChild(capturedImage);
 
 
 
-const capturedBg2 = document.createElement('div'); // Create a container for the captured image
-const capturedImage2 = new Image(); // Create an image element to display the captured image
+// const capturedBg2 = document.createElement('div'); // Create a container for the captured image
+// const capturedImage2 = new Image(); // Create an image element to display the captured image
 
 // Set up the container and image styles
-capturedBg2.classList.add('bg-captured');
-capturedImage2.src = imgHero.src;
+// capturedBg2.classList.add('bg-captured');
+// capturedImage2.src = imgHero.src;
 
 // Append the captured image container to the DOM
-twoBox2.appendChild(capturedBg2);
-capturedBg2.appendChild(capturedImage2);
+// twoBox2.appendChild(capturedBg2);
+// capturedBg2.appendChild(capturedImage2);
 
 
-const capturedBg3 = document.createElement('div'); // Create a container for the captured image
-const capturedImage3 = new Image(); // Create an image element to display the captured image
+// const capturedBg3 = document.createElement('div'); // Create a container for the captured image
+// const capturedImage3 = new Image(); // Create an image element to display the captured image
 
 // Set up the container and image styles
-capturedBg3.classList.add('bg-captured');
-capturedImage3.src = imgHero.src;
+// capturedBg3.classList.add('bg-captured');
+// capturedImage3.src = imgHero.src;
 
 // Append the captured image container to the DOM
-tower.appendChild(capturedBg3);
-capturedBg3.appendChild(capturedImage3);
-
-
-
-
-
-
-
+// tower.appendChild(capturedBg3);
+// capturedBg3.appendChild(capturedImage3);
 
 twoBox1.addEventListener('mouseover', () => {
     twoBox2.classList.add('grayscale');

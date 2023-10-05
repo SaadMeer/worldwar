@@ -271,21 +271,34 @@ header {
     padding: 20px 0px 20px 0px;
     transition: 0.5s ease-in-out;
 }
+.twoBox-1:hover{
+    background-image: url('./assets/imgs/Final\ B\ 3\ -\ Copy.png');
+    background-size: cover;
+    background-color: transparent;
+}
 
 .twoBox-2 {
     width: 100%;
     height: 100%;
-
     border: 5px solid rgba(254, 241, 0, 0.90);
     background: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 10px 0px 10px 0px; */
     padding: 20px 0px 20px 0px;
-
     transition: 0.5s ease-in-out;
+}
+.twoBox-2:hover{
+    background-image: url('./assets/imgs/Final\ B\ 3\ -\ Copy.png');
+    background-size: cover;
+    background-color: transparent;
+}
+
+.tower-section:hover{
+    background-image: url('./assets/imgs/Final\ B\ 3\ -\ Copy.png');
+    background-size: cover;
+    background-color: transparent;
 }
 
 .twoBox-inner {
